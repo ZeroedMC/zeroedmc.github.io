@@ -10,7 +10,7 @@
         if(!new URLSearchParams(window.location.query).has('u')) {
             window.location.replace("https://www.zeroedmc.com");
             return;
-        } else if(new URLSearchParams(window.location.query).has('u') && new URLSearchParams(window.location.query).get('u') == '3fa74d') {
+        } else if(new URLSearchParams(window.location.query).has('u') && new URLSearchParams(window.location.query).get('u').equalsIgnoreCase('3fa74d')) {
             window.location.replace("https://affinity.serif.com/en-us/designer/");
         }
     </script>
